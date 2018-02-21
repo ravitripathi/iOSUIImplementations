@@ -17,6 +17,8 @@
 		4112FCE9203C582800701FDF /* secondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4112FCE8203C582800701FDF /* secondViewController.swift */; };
 		4112FCEB203D3FD800701FDF /* VariableCellTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4112FCEA203D3FD800701FDF /* VariableCellTableViewController.swift */; };
 		4112FCED203D46DD00701FDF /* CustomItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4112FCEC203D46DD00701FDF /* CustomItemCell.swift */; };
+		41FB757A203D9F2A005AAEEB /* SegueViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41FB7579203D9F2A005AAEEB /* SegueViewController.swift */; };
+		41FB7582203DB22F005AAEEB /* PopUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41FB7581203DB22F005AAEEB /* PopUpViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +34,8 @@
 		4112FCE8203C582800701FDF /* secondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = secondViewController.swift; sourceTree = "<group>"; };
 		4112FCEA203D3FD800701FDF /* VariableCellTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VariableCellTableViewController.swift; sourceTree = "<group>"; };
 		4112FCEC203D46DD00701FDF /* CustomItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomItemCell.swift; sourceTree = "<group>"; };
+		41FB7579203D9F2A005AAEEB /* SegueViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegueViewController.swift; sourceTree = "<group>"; };
+		41FB7581203DB22F005AAEEB /* PopUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUpViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +85,8 @@
 				4112FCE6203C581C00701FDF /* firstViewController.swift */,
 				4112FCE8203C582800701FDF /* secondViewController.swift */,
 				4112FCEA203D3FD800701FDF /* VariableCellTableViewController.swift */,
+				41FB7579203D9F2A005AAEEB /* SegueViewController.swift */,
+				41FB7581203DB22F005AAEEB /* PopUpViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -179,8 +185,10 @@
 				4112FCE5203C478500701FDF /* TabViewController.swift in Sources */,
 				4112FCEB203D3FD800701FDF /* VariableCellTableViewController.swift in Sources */,
 				4112FCD3203C019300701FDF /* ViewController.swift in Sources */,
+				41FB757A203D9F2A005AAEEB /* SegueViewController.swift in Sources */,
 				4112FCD1203C019300701FDF /* AppDelegate.swift in Sources */,
 				4112FCE9203C582800701FDF /* secondViewController.swift in Sources */,
+				41FB7582203DB22F005AAEEB /* PopUpViewController.swift in Sources */,
 				4112FCE7203C581C00701FDF /* firstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
