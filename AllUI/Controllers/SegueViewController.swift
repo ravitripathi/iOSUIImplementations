@@ -14,6 +14,10 @@ class SegueViewController: UIViewController, UIPopoverPresentationControllerDele
         super.viewDidLoad()
     }
     
+    @IBAction func launchView(_ sender: UIButton) {
+        
+    }
+    
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         //segue for the popover configuration window
         if segue.identifier == "popOverSegue" {
