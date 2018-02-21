@@ -14,8 +14,11 @@ class SegueViewController: UIViewController, UIPopoverPresentationControllerDele
         super.viewDidLoad()
     }
     
-    @IBAction func launchView(_ sender: UIButton) {
-        
+    @IBAction func launchView(_ sender: UIButton){
+    let storyBoard = UIStoryboard(name: "Main", bundle: nil)
+    let mainViewController = storyBoard.instantiateViewController(withIdentifier: "orphanView")
+    self.navigationController?.pushViewController(mainViewController, animated: true)
+
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
