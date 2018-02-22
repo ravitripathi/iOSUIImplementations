@@ -14,6 +14,7 @@ class SegueViewController: UIViewController, UIPopoverPresentationControllerDele
         super.viewDidLoad()
     }
     
+    //Launches OrphanViewController
     @IBAction func launchView(_ sender: UIButton){
     let storyBoard = UIStoryboard(name: "Main", bundle: nil)
     let mainViewController = storyBoard.instantiateViewController(withIdentifier: "orphanView")
